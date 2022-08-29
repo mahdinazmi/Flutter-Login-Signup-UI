@@ -26,9 +26,9 @@ class SignUp extends StatelessWidget {
             ),
             child: ListView(
               children: [
-                const TopImage(imagePath: 'assets/images/signup-vector.png'),
+                TopImage(imagePath: signUpImagePath),
                 SizedBox(height: 5. h, ),
-                const TopTexts(firstText: 'Hi there!',secondText: "Let's Get Started"),
+                TopTexts(firstText: signUpFirstText,secondText: signUpSecondText),
                 SizedBox(height: 45. h, ),
                 _fields(),
                 SizedBox(height: 15. h, ),
